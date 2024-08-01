@@ -1,15 +1,22 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Admin = () => {
 	return (
-		<section className="container mt-5">
-			<h2>Welcome to Adimin Panel</h2>
+		<section className="container mt-5 shadow p-4 bg-white rounded">
+			<h2 className="mb-4">Welcome to Admin Panel</h2>
 			<hr />
-			<Link to={"/existing-rooms"}>Manage Rooms</Link> <br />
-			<Link to={"/existing-bookings"}>Manage Bookings</Link>
-		</section>
-	)
-}
+			<div className="d-flex justify-content-start gap-2">
+				<Link to="/existing-rooms" className="btn btn-primary">
+					Manage Rooms
+				</Link>
+				<Link to="/existing-bookings" className="btn btn-primary">
+					Manage Bookings
+				</Link>
+			</div>
 
-export default Admin
+		</section>
+	);
+};
+
+export default Admin;

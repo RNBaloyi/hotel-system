@@ -18,14 +18,12 @@ const Home = () => {
 				<h6 className="text-success text-center"> You are logged-In as {currentUser}</h6>
 			)}
 			<MainHeader />
-			<div className="container">
+			<div className="container mt-5">
 				<RoomSearch />
-				<RoomCarousel />
 				<Parallax />
-				<RoomCarousel />
 				<HotelService />
 				<Parallax />
-				<RoomCarousel />
+				
 			</div>
 		</section>
 	)
