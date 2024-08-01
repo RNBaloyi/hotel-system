@@ -20,6 +20,7 @@ const Home = () => {
 			<MainHeader />
 			<div className="container mt-5">
 				<RoomSearch />
+				<RoomCarousel/>
 				<Parallax />
 				<HotelService />
 				<Parallax />

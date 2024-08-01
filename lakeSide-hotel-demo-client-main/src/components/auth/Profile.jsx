@@ -76,7 +76,7 @@ const Profile = () => {
 	}
 
 	return (
-		<div className="container">
+		<div className="container mb-4">
 			{errorMessage && <p className="text-danger">{errorMessage}</p>}
 			{message && <p className="text-danger">{message}</p>}
 			{user ? (
@@ -188,8 +188,8 @@ const Profile = () => {
 							)}
 
 							<div className="d-flex justify-content-center">
-								<div className="mx-2">
-									<button className="btn btn-danger btn-sm" onClick={handleDeleteAccount}>
+								<div className="mx-4">
+									<button className="btn btn-danger btn-m" onClick={handleDeleteAccount}>
 										Close account
 									</button>
 								</div>
