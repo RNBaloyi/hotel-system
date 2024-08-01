@@ -80,8 +80,8 @@ const Profile = () => {
 			{errorMessage && <p className="text-danger">{errorMessage}</p>}
 			{message && <p className="text-danger">{message}</p>}
 			{user ? (
-				<div className="card p-5 mt-5" style={{ backgroundColor: "whitesmoke" }}>
-					<h4 className="card-title text-center">User Information</h4>
+				<div className="card p-7 mt-5" style={{ backgroundColor: "whitesmoke" }}>
+					<h4 className="card-title text-center mt-2">User Information</h4>
 					<div className="card-body">
 						<div className="col-md-10 mx-auto">
 							<div className="card mb-3 shadow">
