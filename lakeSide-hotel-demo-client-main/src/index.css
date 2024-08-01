@@ -12,6 +12,7 @@ body {
  }
  .navbar .navbar-nav .nav-link{
   padding: 1em;
+  font-size: 17px;
  }
  .navbar .navbar-nav .nav-item{
   position: relative;
@@ -23,7 +24,11 @@ body {
   left: 0;
   right: 0;
   content: '';
+<<<<<<< HEAD
   background-color:rgb(29, 50, 231) ;
+=======
+  background-color:rgb(12,35,125);
+>>>>>>> 8a4f220facb8e6a1b68d78ac168598bbf224008f
   width: 0;
   margin: 0 auto;
   height: 4px;
@@ -67,7 +72,16 @@ body {
   }
 
   .hotel-color{
+<<<<<<< HEAD
     color: rgb(0, 18, 180);
+=======
+    color: rgb(12,35,125);
+  }
+
+  .navbar-brand .hotel-color{
+    font-size: 25px;
+    font-weight: bold;
+>>>>>>> 8a4f220facb8e6a1b68d78ac168598bbf224008f
   }
   .room-price{
     color:darkgoldenrod;
@@ -201,6 +215,17 @@ body {
   height: 500px;
 }
 
+
+/* dropdown-menu */
+.nav-item .dropdown-menu .dropdown-item{
+  transition: .3s;
+}
+.nav-item .dropdown-menu .dropdown-item:hover { 
+  background-color: #0056b3; /* Darker blue on hover */
+  color: white;
+}
+
+
 @media only screen and (max-width: 768px) {
   .header-banner h1 {
     font-size: 20px;
@@ -222,6 +247,7 @@ body {
   height: 60px;
   text-align: center;
 }
+
 
 
 
