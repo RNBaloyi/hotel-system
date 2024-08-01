@@ -17,7 +17,7 @@ const NavBar = () => {
 		<nav className="navbar navbar-expand-lg bg-body-tertiary px-5 shadow mt-5 sticky-top">
 			<div className="container-fluid">
 				<Link to={"/"} className="navbar-brand">
-					<span className="hotel-color">lakeSide Hotel</span>
+					<span className="hotel-color">TechnoSuite Hotel</span>
 				</Link>
 
 				<button
@@ -35,7 +35,7 @@ const NavBar = () => {
 					<ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
 						<li className="nav-item">
 							<NavLink className="nav-link" aria-current="page" to={"/browse-all-rooms"}>
-								Browse all rooms
+								Browse All Rooms
 							</NavLink>
 						</li>
 
