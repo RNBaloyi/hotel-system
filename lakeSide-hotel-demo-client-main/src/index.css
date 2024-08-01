@@ -24,7 +24,11 @@ body {
   left: 0;
   right: 0;
   content: '';
+<<<<<<< HEAD
+  background-color:rgb(29, 50, 231) ;
+=======
   background-color:rgb(12,35,125);
+>>>>>>> 8a4f220facb8e6a1b68d78ac168598bbf224008f
   width: 0;
   margin: 0 auto;
   height: 4px;
@@ -55,7 +59,7 @@ body {
 
   /* Hotel custom color */
  .btn-hotel{
-  background-color: rgb(169, 77, 123);
+  background-color: rgb(16, 13, 190);
   color: #fff;
   }
   .btn-hotel:hover{
@@ -68,12 +72,16 @@ body {
   }
 
   .hotel-color{
+<<<<<<< HEAD
+    color: rgb(0, 18, 180);
+=======
     color: rgb(12,35,125);
   }
 
   .navbar-brand .hotel-color{
     font-size: 25px;
     font-weight: bold;
+>>>>>>> 8a4f220facb8e6a1b68d78ac168598bbf224008f
   }
   .room-price{
     color:darkgoldenrod;
@@ -88,7 +96,7 @@ body {
 
 
 .parallax {
-  background-image: url("./assets/images/parrall.jpg");
+  background-image: url("./assets/images/pic1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +108,7 @@ body {
   position: relative;
   height: 150px;
   background-size: cover;
-  background-image: url("./assets/images/services4.jpg");
+  background-image: url("./assets/images/serviceHotel.jpg");
   background-position: center center;
 }
 .header-title {
@@ -195,7 +203,7 @@ body {
 
 /* The header banner */
 .header-banner {
-  background-image:  url("./assets/images/services-1.jpg");
+  background-image:  url("./assets/images/frontimage.jpg");
    background-size: cover;
   background-position: center;
    position: relative;
