@@ -23,7 +23,7 @@ body {
   left: 0;
   right: 0;
   content: '';
-  background-color:rgb(169, 77, 123) ;
+  background-color:rgb(29, 50, 231) ;
   width: 0;
   margin: 0 auto;
   height: 4px;
@@ -54,7 +54,7 @@ body {
 
   /* Hotel custom color */
  .btn-hotel{
-  background-color: rgb(169, 77, 123);
+  background-color: rgb(16, 13, 190);
   color: #fff;
   }
   .btn-hotel:hover{
@@ -67,7 +67,7 @@ body {
   }
 
   .hotel-color{
-    color: rgb(169, 77, 123);
+    color: rgb(0, 18, 180);
   }
   .room-price{
     color:darkgoldenrod;
@@ -82,7 +82,7 @@ body {
 
 
 .parallax {
-  background-image: url("./assets/images/parrall.jpg");
+  background-image: url("./assets/images/pic1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body {
   position: relative;
   height: 150px;
   background-size: cover;
-  background-image: url("./assets/images/services4.jpg");
+  background-image: url("./assets/images/serviceHotel.jpg");
   background-position: center center;
 }
 .header-title {
@@ -189,7 +189,7 @@ body {
 
 /* The header banner */
 .header-banner {
-  background-image:  url("./assets/images/services-1.jpg");
+  background-image:  url("./assets/images/frontimage.jpg");
    background-size: cover;
   background-position: center;
    position: relative;
