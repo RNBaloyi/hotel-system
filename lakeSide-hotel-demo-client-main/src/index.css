@@ -24,10 +24,7 @@ body {
   left: 0;
   right: 0;
   content: '';
-<<<<<<< HEAD
-  background-color:rgb(29, 50, 231) ;
-=======
-  background-color:rgb(12,35,125);
+  /* background-color:rgb(12,35,125); */
   width: 0;
   margin: 0 auto;
   height: 4px;
@@ -71,16 +68,12 @@ body {
   }
 
   .hotel-color{
-<<<<<<< HEAD
-    color: rgb(0, 18, 180);
-=======
     color: rgb(12,35,125);
   }
 
   .navbar-brand .hotel-color{
     font-size: 25px;
     font-weight: bold;
->>>>>>> 8a4f220facb8e6a1b68d78ac168598bbf224008f
   }
   .room-price{
     color:darkgoldenrod;
